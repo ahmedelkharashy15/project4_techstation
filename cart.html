@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TechStation | Your Cart</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Bebas+Neue&family=Pixelify+Sans&family=Roboto&family=Roboto+Condensed&family=Share+Tech&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/all.css">
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-expand-lg  sticky-top header">
+            <div class="container navs">
+              <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo - Copy.png" alt="TechStation_logo" draggable="false" width="70" height="70" class="d-inline-block align-text-center">
+                </a>
+                <a href="index.html">TechStation</a>
+            </div>
+            <button class="navbar-toggler text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars text-secondary" style="font-size: 30px;"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="links navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link my-2" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link my-2" href="#">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link my-2" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link my-2" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="info">
+                    <div class="register-links">
+                        <a href="login.html">Login</a>
+                        <a href="register.html">SignUp</a>
+                    </div>
+                    <div class="user-info">
+                        <p class="user"></p>
+                        <div class="logout">
+                            <a href="" class="logout-link">LogOut</a>
+                        </div>
+                        <div class="all-products">
+                            <div class="products-box"></div>
+                            <div class="view-products">
+                                <a href="cart.html">View All Products</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="user-cart row justify-content-around mt-4"></div>
+        </div>
+
+        <div class="price my-5">
+            <h1 class="total-price">
+                Total Price : <span id="price-span"></span> $
+            </h1>
+        </div>
+
+        <hr style="color: #AFB3B7;">
+
+        <div class="fav-sec my-5">
+            <h1>Favourite</h1>
+            <div class="container">
+                <div class="fav-products row justify-content-around"></div>
+            </div>
+        </div>
+
+        <script src="js/cart.js"></script>
+        <script src="js/user.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

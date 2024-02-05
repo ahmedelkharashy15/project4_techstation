@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TechStation</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Bebas+Neue&family=Pixelify+Sans&family=Roboto&family=Roboto+Condensed&family=Share+Tech&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/all.css">
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-expand-lg header">
+            <div class="container navs">
+              <div class="logo">
+                <a href="#">
+                    <img src="images/logo - Copy.png" alt="TechStation_logo" draggable="false" width="70" height="70" class="d-inline-block align-text-center">
+                </a>
+                <a href="#">TechStation</a>
+            </div>
+              <button class="navbar-toggler text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars text-secondary" style="font-size: 30px;"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="links navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active my-2" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link my-2" href="#">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link my-2" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link my-2" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="info">
+                    <div class="register-links">
+                        <a href="login.html">Login</a>
+                        <a href="register.html">SignUp</a>
+                    </div>
+                    <div class="user-info">
+                        <i class="fas fa-shopping-cart position-relative cart-icon">
+                            <span class="position-absolute translate-middle badge rounded-pill p-1 cart-b">
+                              0
+                            </span>
+                        </i>
+                        <p class="user"></p>
+                        <div class="logout">
+                            <a href="" class="logout-link">LogOut</a>
+                        </div>
+                    </div>
+                    <div class="all-products">
+                        <div class="products-box"></div>
+                        <div class="view-products">
+                            <a href="cart.html">View All Products</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </nav>
+ 
+        <div class="container search-bars my-4">
+            <div class="d-flex">
+                <select class="form-select me-2" aria-label="Default select example" id="search-select">
+                    <option selected>Search by Name</option>
+                    <option value="1">Search by Category</option>
+                  </select>
+                <input type="search" placeholder="Search" class="form-control ms-2" id="search-field">
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="container my-4 ">
+            <div class="row  products justify-content-around">
+                
+            </div>
+        </div>
+
+        <script src="js/script.js"></script>
+        <script src="js/user.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
